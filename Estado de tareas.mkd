@@ -1,0 +1,29 @@
+
+# ESTADO DE TAREAS
+
+---
+
+
+## Pasar todos los sitios a HTTPS
+
++ HTTPS Biografica
+
+	+ Se puede acceder por https
+	+ Algunas imagenes pueden no estar bien direccionadas
+	+ El mapa de google maps hay que habilitarlo para el dominio https
+	+ No se como reescribir las rutas de los assets cableados de 'www' a '//'
+
++ HTTPS OTEC
+
+	+ Se puede acceder por https
+	+ Aparecen warnings de mixed assets, averiguar
+	+ El mapa de google maps hay que habilitarlo para el dominio https
+
+## Documentacion
+
++ WikiJS
+
+	+ Se puede instalar perfectamente
+	+ Hay pequeñas fallas en los estilos
+	+ No se pueden eliminar las secciones creadas
+	+ No se indexan en el menu principal las secciones creadas, hay que enlazarlas desde el home
