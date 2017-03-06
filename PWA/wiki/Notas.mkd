@@ -1,0 +1,143 @@
+<style>
+body{
+	max-width: 600px;
+	display:block;
+	margin: auto;
+}
+img{
+	max-width: 300px;
+	display: block;
+	margin: 50px auto;
+}
+img[alt='PWA']{
+	display: inline-block;
+	width: 250px;
+	margin: 25px;
+}
+</style>
+
+#Notas de PWA
+
++ Twitter: "Today we moved all of Twitter's mobile web traffic (that's like, a lot) to our new web stack – Node.js, Express, React PWA."
+
++ It’s not “PWA vs. native”, but rather “PWA vs. \[web + native + native\]”.
+
++ To automatically add to Home Screen --> ... Is visited at least twice, with at least five minutes between visits. ...
+
+<hr>
+
+###Objetivo:
+
+![PWA](/home/ivan/Programming/PWA/wiki/img/browser11.png)![PWA](/home/ivan/Programming/PWA/wiki/img/browser10.png)
+
+<hr>
+
+###Chrome
+
+|Caracteristica|SI - NO|
+|-|-|
+|Barra de color|SI
+|Fullscreen|SI
+|Add to homescreen automatico|SI
+|Splash screen|SI
+|Offline|SI
+|Service Workers|SI
+|Icono|SI
+|Local Storage|SI
+
+![Chrome](/home/ivan/Programming/PWA/wiki/img/browser1.png)
+
+###Apus
+
+|Caracteristica|SI - NO|
+|-|-|
+|Barra de color|NO
+|Fullscreen|NO
+|Add to homescreen automatico|NO
+|Splash screen|NO
+|Offline|SI
+|Service Workers|SNI
+|Icono|NO
+|Local Storage|SI
+
+![Apus](/home/ivan/Programming/PWA/wiki/img/browser2.png)
+
+###Firefox
+
+|Caracteristica|SI - NO|
+|-|-|
+|Barra de color|NO
+|Fullscreen|NO
+|Add to homescreen automatico|NO
+|Splash screen|NO
+|Offline|SI
+|Service Workers|SI
+|Icono|SI
+|Local Storage|SI
+
+![Firefox](/home/ivan/Programming/PWA/wiki/img/browser3.png)
+
+###Opera
+
+|Caracteristica|SI - NO|
+|-|-|
+|Barra de color|NO
+|Fullscreen|SI
+|Add to homescreen automatico|NO
+|Splash screen|SI
+|Offline|SI
+|Service Workers|SI
+|Icono|SI
+|Local Storage|SI
+
+![Opera](/home/ivan/Programming/PWA/wiki/img/browser4.png)
+
+###Opera Mini
+
++ Funciona si se desactiva el 'modo extremo'
+
+|Caracteristica|SI - NO|
+|-|-|
+|Barra de color|NO
+|Fullscreen|NO
+|Add to homescreen automatico|NO
+|Splash screen|NO
+|Offline|SI - Lento
+|Service Workers|SNI
+|Icono|NO
+|Local Storage|SI
+
+![Opera Mini](/home/ivan/Programming/PWA/wiki/img/browser8.png)
+
+###UC
+
+|Caracteristica|SI - NO|
+|-|-|
+|Barra de color|NO
+|Fullscreen|NO
+|Add to homescreen automatico|NO
+|Splash screen|NO
+|Offline|NO
+|Service Workers|SNI
+|Icono|NO
+|Local Storage|NO
+
+![UC](/home/ivan/Programming/PWA/wiki/img/browser7.png)
+
+###UC Mini
+
++ Funciona si se desactiva el 'modo rapido'
++ No se puede añadir al escritorio
+
+|Caracteristica|SI - NO|
+|-|-|
+|Barra de color|NO
+|Fullscreen|NO
+|Add to homescreen automatico|NO
+|Splash screen|NO
+|Offline|SI
+|Service Workers|SNI
+|Icono|NO
+|Local Storage|SI
+
+![UC Mini](/home/ivan/Programming/PWA/wiki/img/browser9.png)
