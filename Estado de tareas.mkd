@@ -6,18 +6,18 @@
 
 ## Pasar todos los sitios a HTTPS
 
-+ HTTPS Biografica
++ HTTPS Biografica :ok:
 
-	+ Se puede acceder por https
-	+ Algunas imagenes pueden no estar bien direccionadas
-	+ El mapa de google maps hay que habilitarlo para el dominio https
-	+ No se como reescribir las rutas de los assets cableados de 'www' a '//'
+	+ Se puede acceder por https :ok:
+	+ Algunas imagenes pueden no estar bien direccionadas :ok:
+	+ El mapa de google maps hay que habilitarlo para el dominio https :ok:
+	+ No se como reescribir las rutas de los assets cableados de 'www' a '//' :ok:
 
-+ HTTPS OTEC
++ HTTPS OTEC :ok:
 
-	+ Se puede acceder por https
-	+ Aparecen warnings de mixed assets, averiguar
-	+ El mapa de google maps hay que habilitarlo para el dominio https
+	+ Se puede acceder por https :ok:
+	+ Aparecen warnings de mixed assets, averiguar :ok:
+	+ El mapa de google maps hay que habilitarlo para el dominio https :ok:
 
 ## Documentacion
 

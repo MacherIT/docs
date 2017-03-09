@@ -1,7 +1,7 @@
 # Habilitar SSL en websites
-	
-+ ## Habilitar el cetificado en el hosting 
-	
+
++ ## Habilitar el cetificado en el hosting
+
 	+ ### [ElServer Panel](http://latincloud.com/)
 
 		1. Acceder al [panel](panel.elserver.com) con usuario y contraseña y acceder a los sitios:
@@ -11,7 +11,7 @@
 		2. Habilitar la opcion de [SSL](https://es.wikipedia.org/wiki/Transport_Layer_Security):
 
 			Acceder a Mis Clientes > {nombre del sitio} > Sitios Web > {nombre del sitio} > Tildar la opcion "Activar SSL LetsEncrypt+HTTP/2"
-	
+
 	+ ### [cPanel](https://cpanel.com/)
 
 		1. Acceder al panel con usuario y contraseña *(depende del hosting, el enlace en cuestion)*
@@ -37,7 +37,7 @@
 			{nombre del sitio}<.com, .ar, etc.\>/admin
 
 		2. Modificar la [URL](https://es.wikipedia.org/wiki/Localizador_de_recursos_uniforme) base
-	
+
 			Ajustes > Generales
 
 			y editar los campos "Dirección de WordPress (URL)" y "Dirección del sitio (URL)" y añadir una 's' a la direccion base (*http --> http**s***)
@@ -74,8 +74,3 @@
 				define('WP_SITEURL','http://{nombre del sitio}');
 
 		##### Si, luego de esto, todavia no funciona correctamente el acceso seguro, [Google](https://google.com)
-
-	
-
-
-
