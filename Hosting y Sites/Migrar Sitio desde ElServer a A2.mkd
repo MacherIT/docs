@@ -1,0 +1,15 @@
+# Migrar Sitio desde ElServer a A2
+###### *(elserver --> A2)*
+
+### Obtener los datos [FTP](https://es.wikipedia.org/wiki/File_Transfer_Protocol)
+
+1. Acceder a [http://panel.elserver.com/](http://panel.elserver.com/)
+2. Ingresar usuario y contraseña
+3. Seleccionar 'Multicuenta' en el panel lateral izquierdo
+4. Identificar el stio en cuestion y hacer click sobre éste
+5. En el panel que se despliega sobre la derecha, hacer click en 'acceder'
+6. Seleccionar '**<> FTP · SSH**'
+7. Hacer click sobre la cuenta 'webmaster.{nombre del sitio}'
+8. Sobre el panel que se despliega a la derecha, hacer click en '+ CONFIGURAR CLIENTE FTP'
+9. Alli se encuentran los datos para la **conexion FTP**, la contraseña debe haberse obtenido previamente
+10. Con estos datos, se puede configurar una conexion FTP utilizando un cliente externo (se recomienda utilizar [filezilla](https://filezilla-project.org/))
