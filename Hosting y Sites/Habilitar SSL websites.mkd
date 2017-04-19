@@ -2,7 +2,7 @@
 
 + ## Habilitar el cetificado en el hosting
 
-	+ ### [ElServer Panel](http://latincloud.com/)
+	+ ### [ElServer Panel](http://latincloud.com/) y sus amigos
 
 		1. Acceder al [panel](panel.elserver.com) con usuario y contraseña y acceder a los sitios:
 

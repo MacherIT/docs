@@ -6,10 +6,39 @@
 1. Acceder a [http://panel.elserver.com/](http://panel.elserver.com/)
 2. Ingresar usuario y contraseña
 3. Seleccionar 'Multicuenta' en el panel lateral izquierdo
-4. Identificar el stio en cuestion y hacer click sobre éste
+4. Identificar el sitio en cuestión y hacer click sobre éste
 5. En el panel que se despliega sobre la derecha, hacer click en 'acceder'
 6. Seleccionar '**<> FTP · SSH**'
 7. Hacer click sobre la cuenta 'webmaster.{nombre del sitio}'
 8. Sobre el panel que se despliega a la derecha, hacer click en '+ CONFIGURAR CLIENTE FTP'
-9. Alli se encuentran los datos para la **conexion FTP**, la contraseña debe haberse obtenido previamente
-10. Con estos datos, se puede configurar una conexion FTP utilizando un cliente externo (se recomienda utilizar [filezilla](https://filezilla-project.org/))
+9. Alli se encuentran los datos para la **conexion FTP**. La contraseña debe haberse obtenido previamente
+10. Con estos datos, se puede configurar una conexión FTP utilizando un cliente externo (se recomienda utilizar [filezilla](https://filezilla-project.org/))
+
+
+### Crear una cuenta en el panel de multicuenta de A2
+
+1. Acceder al panel de [WHM](https://wwwssr19.supercp.com:2087)
+Hola hola
+2. Ingresar usuario y contraseña
+3. En el panel de la izquierda, seleccionar **Create a new account**
+4. Ingresar los datos correspondientes. Guardar la contraseña en un sitio seguro, siguiendo los lineamientos usuales para los sitios web
+5. En *Package*, seleccionar un paquete de entre los disponibles, posiblemente *macheri1_Cero*
+6. Cambiar las *Mail Routing Settings* a *Automatically Detect Configuration (recommended)*
+7. Hacer clic en **Create**, copiar el *digest* que se muestra a continuación (el que incluye los datos de la cuenta recién creada) y guardarla en un lugar seguro.
+8. En el menú de la izquierda, ir a **List Accounts** (debajo de *Account Information*), y cliquear en el ícono de CPanel de la cuenta recién creada. A continuación se podrá configurar el servidor con los servicios necesarios para el sitio que se migrará.
+
+
+#### Migrando un sitio de WordPress
+
+Una vez dentro del CPanel de la cuenta recién creada con el dominio deseado:
+
+
+##### Crear la base de datos y el usuario
+
+1. Para crear una base de datos para la instalación del WP, cliquear en **Asistente de bases de datos MySQL**.
+2. Es conveniente, cuando sea posible, crear una DB con el mismo nombre que la que existe en el servidor de origen. 
+3. Crear el usuario, siguiendo los mismos lineamientos, y en caso de ser posible asignar la misma contraseña. 
+4. Asignarle todos los privilegios.
+
+##### Crear las cuentas de email
+1. 
