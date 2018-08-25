@@ -20,3 +20,13 @@ aws s3api put-bucket-cors --bucket bucketeer-4cfae2bd-c107-4ef1-8b72-1f3d7556ae0
 ```
 cambiando el ID del bucket correspondientemente, que es el
 **BUCKETEER_BUCKET_NAME** de Heroku.
+
+Además, debemos agregar la configuración de Amazon a **config/storage.yml**:
+```
+amazon:
+  service: S3
+  access_key_id: <%= ENV['BUCKETEER_AWS_ACCESS_KEY_ID'] %>
+  secret_access_key: <%= ENV['BUCKETEER_AWS_SECRET_ACCESS_KEY'] %>
+  region: <%= ENV['BUCKETEER_AWS_REGION'] %>
+  bucket: <%= ENV['BUCKETEER_BUCKET_NAME'] %>
+```
