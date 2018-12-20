@@ -84,18 +84,18 @@ $scope.elementos = [
   $scope.cantElemVisibles = 3;
 
   $scope.mueveAtras = () => {
-    if ($scope.imgActivo - 3 > 0) {
-      $scope.imgActivo -= 3;
+    if ($scope.imgActivo - $scope.cantElemVisibles > 0) {
+      $scope.imgActivo -= $scope.cantElemVisibles;
     } else {
       $scope.imgActivo = 0;
     }
   };
   $scope.mueveAdelante = () => {
     if (
-      $scope.imgActivo + 3 <
+      $scope.imgActivo + $scope.cantElemVisibles <
       $scope.elementos.length - $scope.cantElemVisibles
     ) {
-      $scope.imgActivo += 3;
+      $scope.imgActivo += $scope.cantElemVisibles;
     } else {
       $scope.imgActivo = $scope.elementos.length - $scope.cantElemVisibles;
     }
