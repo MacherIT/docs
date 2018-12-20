@@ -1,22 +1,10 @@
 ```
-.contenedor-corto(ng-init="imgActivo = 0")
-  .arrow.left(ng-click="(imgActivo = imgActivo - 3)")
+.contenedor-corto
+  .arrow.left(ng-click="mueveAtras()")
   .contenedor-largo(class="activo-{{imgActivo}}")
-    .imagen
-      span img
-    .imagen
-      span img
-    .imagen
-      span img
-    .imagen
-      span img
-    .imagen
-      span img
-    .imagen
-      span img
-    .imagen
-      span img
-  .arrow.right(ng-click="(imgActivo = imgActivo + 3)")
+    .imagen(ng-repeat="img in elementos track by $index")
+      span {{img.src}}
+  .arrow.right(ng-click="mueveAdelante()")
 ```
 -------
 ```
@@ -65,4 +53,51 @@
       }
     }
   }
+```
+-------
+```
+$scope.elementos = [
+    {
+      src: "img"
+    },
+    {
+      src: "img"
+    },
+    {
+      src: "img"
+    },
+    {
+      src: "img"
+    },
+    {
+      src: "img"
+    },
+    {
+      src: "img"
+    },
+    {
+      src: "img"
+    }
+  ];
+
+  $scope.imgActivo = 0;
+  $scope.cantElemVisibles = 3;
+
+  $scope.mueveAtras = () => {
+    if ($scope.imgActivo - 3 > 0) {
+      $scope.imgActivo -= 3;
+    } else {
+      $scope.imgActivo = 0;
+    }
+  };
+  $scope.mueveAdelante = () => {
+    if (
+      $scope.imgActivo + 3 <
+      $scope.elementos.length - $scope.cantElemVisibles
+    ) {
+      $scope.imgActivo += 3;
+    } else {
+      $scope.imgActivo = $scope.elementos.length - $scope.cantElemVisibles;
+    }
+  };
 ```
