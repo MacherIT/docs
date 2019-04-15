@@ -28,3 +28,4 @@
 |52600|Saona|
 |52700|Escuela de modelos|
 |52800|Fiblo|
+|52900|IPAT|
