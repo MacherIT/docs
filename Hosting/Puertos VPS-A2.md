@@ -29,3 +29,4 @@
 |52700|Escuela de modelos|
 |52800|Fiblo|
 |52900|IPAT|
+|53000|CECO|
